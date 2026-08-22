@@ -1,0 +1,1 @@
+CREATE POLICY anon_update_plans ON plans FOR UPDATE TO anon USING (true) WITH CHECK (true);
